@@ -1,0 +1,14 @@
+The book builds 2 interpreters :-
+
+1)"jlox" in Java (but that interpreter will use many of JVM's ability. But we want to know
+            how JVM itself implements those "parsing" and processing. SO:-)
+
+2)"clox" in C  (Brutal but We'll build everything bottom up. Even LLVM, GCC, many JSVM are written in C++)
+         (All the way to bytes in memory and code flowing through memory)
+
+
+
+CHAPTER 1:-
+
+Scanning:- parsing through a string of code line and convert it into tokens
+Parsing :- 
